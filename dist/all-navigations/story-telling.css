@@ -42,22 +42,22 @@
  * --------------------------------------- */
  /* Line */
 #fp-nav ul li:not(:last-child) a span::before {
-    background: #2c4240
+    background: #97bd51
 }
 /* Inactive bullet */
 #fp-nav ul li a span:after{
-    border-color: #2c4240;
-    background: #995fc4
+    border-color: #97bd51;
+    background: #f2f3ed;
 }
 /* Inactive bullet hover/focus */
 #fp-nav ul li a:not(.active):focus span::after,
 #fp-nav ul li a:not(.active):hover span::after {
-    border-color: #2c4240;
-    background: #fff;
+    border-color: #97bd51;
+    background: #f2f3ed;
 }
 /* Active bullet  */
 #fp-nav ul li a.active span:after {
-    border-color: #fff;
+    border-color: #97bd51;
 }
 
 
@@ -109,6 +109,7 @@
     border-width: 1px;
     -webkit-transform: scale3d(1.6,1.6,1);
     transform: scale3d(1.6,1.6,1);
+    background-color: #97bd51;
 }
 #fp-nav ul li .fp-tooltip{
     top: 10px;
@@ -125,6 +126,7 @@
 .fp-big-nav #fp-nav ul li a span:after{
     width: 18px;
     height: 18px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1) !important;
 }
 .fp-big-nav  #fp-nav ul li {
     margin: 15px 7px;
@@ -132,18 +134,30 @@
     height: 2.5em;
 }
 .fp-big-nav #fp-nav ul li:not(:last-child) a span::before {
-    top: calc(2.5em - 9px);
+    top: calc(2.5em - 12px);
     left: 8px;
     height: calc(4em - 18px);
 }
 
 .fp-big-nav #fp-nav ul li .fp-tooltip{
     line-height: 20px;
-    top: 0.7em;
+    top: 0;
 }
-.fp-big-nav #fp-nav.right ul li .fp-tooltip{
-    right: 3.7em;
+.fp-big-nav #fp-nav.right ul li .fp-tooltip {
+    right: 0.6em;
+    color: #97bd51;
+    font-size: 1.3em;
+    background-color: #f2f3ed;
+    padding: 0.6em 2em 0.4em 0.7em;
+    border-radius: 1em;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1) !important;
 }
 .fp-big-nav #fp-nav.left ul li .fp-tooltip{
     left: 2.3em;
 }
+
+#fp-nav.right {
+    right: 0 !important;
+}
+
+
