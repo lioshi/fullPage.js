@@ -42,22 +42,22 @@
  * --------------------------------------- */
  /* Line */
 #fp-nav ul li:not(:last-child) a span::before {
-    background: #97bd51
+    background: #3e7996
 }
 /* Inactive bullet */
 #fp-nav ul li a span:after{
-    border-color: #97bd51;
+    border-color: #3e7996;
     background: #f2f3ed;
 }
 /* Inactive bullet hover/focus */
 #fp-nav ul li a:not(.active):focus span::after,
 #fp-nav ul li a:not(.active):hover span::after {
-    border-color: #97bd51;
+    border-color: #3e7996;
     background: #f2f3ed;
 }
 /* Active bullet  */
 #fp-nav ul li a.active span:after {
-    border-color: #97bd51;
+    border-color: #3e7996;
 }
 
 
@@ -109,7 +109,7 @@
     border-width: 1px;
     -webkit-transform: scale3d(1.6,1.6,1);
     transform: scale3d(1.6,1.6,1);
-    background-color: #97bd51;
+    background-color: #3e7996;
 }
 #fp-nav ul li .fp-tooltip{
     top: 10px;
@@ -145,7 +145,7 @@
 }
 .fp-big-nav #fp-nav.right ul li .fp-tooltip {
     right: 0.6em;
-    color: #97bd51;
+    color: #3e7996;
     font-size: 1.3em;
     background-color: #f2f3ed;
     padding: 0.6em 2em 0.4em 0.7em;
