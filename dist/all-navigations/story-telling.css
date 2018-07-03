@@ -126,7 +126,7 @@
 .fp-big-nav #fp-nav ul li a span:after{
     width: 18px;
     height: 18px;
-    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1) !important;
+    /* box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1) !important; */
 }
 .fp-big-nav  #fp-nav ul li {
     margin: 15px 7px;
@@ -145,11 +145,11 @@
 }
 .fp-big-nav #fp-nav.right ul li .fp-tooltip {
     right: 0.6em;
-    color: #3e7996;
-    font-size: 1.3em;
-    background-color: #f2f3ed;
-    padding: 0.4em 2em 0.4em 0.7em;
-    border-radius: 1em;
+    color: #f2f3ed;
+    font-size: 1em;
+    background-color: #3e7996;
+    padding: 0.6em 2.2em 0.6em 0.9em;
+    border-radius: 2em;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1) !important;
 }
 .fp-big-nav #fp-nav.left ul li .fp-tooltip{
