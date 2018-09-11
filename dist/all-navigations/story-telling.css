@@ -42,22 +42,22 @@
  * --------------------------------------- */
  /* Line */
 #fp-nav ul li:not(:last-child) a span::before {
-    background: #3e7996
+    background: #3b6474
 }
 /* Inactive bullet */
 #fp-nav ul li a span:after{
-    border-color: #3e7996;
-    background: #f2f3ed;
+    border-color: #3b6474;
+    background: #3b6474;
 }
 /* Inactive bullet hover/focus */
 #fp-nav ul li a:not(.active):focus span::after,
 #fp-nav ul li a:not(.active):hover span::after {
-    border-color: #3e7996;
+    border-color: #3b6474;
     background: #f2f3ed;
 }
 /* Active bullet  */
 #fp-nav ul li a.active span:after {
-    border-color: #3e7996;
+    border-color: #3b6474;
 }
 
 
@@ -109,7 +109,7 @@
     border-width: 1px;
     -webkit-transform: scale3d(1.6,1.6,1);
     transform: scale3d(1.6,1.6,1);
-    background-color: #3e7996;
+    background-color: #3b6474;
 }
 #fp-nav ul li .fp-tooltip{
     top: 10px;
@@ -147,7 +147,7 @@
     right: 0.6em;
     color: #f2f3ed;
     font-size: 1em;
-    background-color: #3e7996;
+    background-color: #3b6474;
     padding: 0.6em 2.2em 0.6em 0.9em;
     border-radius: 2em;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1) !important;
